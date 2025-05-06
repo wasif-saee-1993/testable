@@ -49,6 +49,11 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem "bundler-audit"
+  gem "ruby_audit"
+  gem "rubocop-rails"
+  gem "rubocop"
 end
 
 group :development do
