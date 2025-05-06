@@ -14,4 +14,9 @@ class PostTest < ActiveSupport::TestCase
 
     assert post.save, "Saved with ID title"
   end
+
+  test "Post should have views" do
+    post = Post.new(title: "Test2", views: 10)
+    assert post.save, "Saved with ID title"
+  end
 end
